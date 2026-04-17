@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Disease Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Crop Disease Detection</h1>
+        <p>Upload a leaf image to detect disease and get treatment info</p>
+
+        <form id="uploadForm" enctype="multipart/form-data">
+            <input type="file" name="file" id="fileInput" accept="image/*" required>
+            <button type="submit">Predict</button>
+        </form>
+
+        <div id="result" class="result-box" style="display:none;">
+            <img id="uploadedImage" src="" alt="Uploaded Image">
+            <h2 id="diseaseName"></h2>
+            <p><strong>Confidence:</strong> <span id="confidence"></span></p>
+            <p><strong>Severity:</strong> <span id="severity"></span></p>
+
+            <p class="section-title">Treatment:</p>
+            <ul id="treatmentList"></ul>
+
+            <p class="section-title">Prevention:</p>
+            <ul id="preventionList"></ul>
+        </div>
+    </div>
+
+    <script>
+        const form = document.getElementById('uploadForm');
+
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+
+            const fileInput = document.getElementById('fileInput');
+
+            // ✅ Check if file selected
+            if (!fileInput.files.length) {
+                alert("Please select an image");
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append('file', fileInput.files[0]);
+
+            try {
+                const res = await fetch('/predict', {
+                    method: 'POST',
+                    body: formData
+                });
+
+                const data = await res.json();
+
+                if (data.error) {
+                    alert(data.error);
+                    return;
+                }
+
+                // Show result
+                document.getElementById('uploadedImage').src = data.image_path;
+                document.getElementById('diseaseName').innerText = data.disease;
+                document.getElementById('confidence').innerText = data.confidence;
+
+                const severityEl = document.getElementById('severity');
+                severityEl.innerText = data.severity;
+                severityEl.className = `severity-${data.severity.toLowerCase()}`;
+
+                // Treatment
+                const treatmentList = document.getElementById('treatmentList');
+                treatmentList.innerHTML = '';
+
+                if (typeof data.treatment === 'string') {
+                    data.treatment.split(';').forEach(item => {
+                        if (item.trim()) {
+                            const li = document.createElement('li');
+                            li.textContent = item.trim();
+                            treatmentList.appendChild(li);
+                        }
+                    });
+                } else {
+                    Object.values(data.treatment).forEach(value => {
+                        const li = document.createElement('li');
+                        li.textContent = value;
+                        treatmentList.appendChild(li);
+                    });
+                }
+
+                // Prevention
+                const preventionList = document.getElementById('preventionList');
+                preventionList.innerHTML = '';
+
+                if (typeof data.prevention === 'string') {
+                    data.prevention.split(';').forEach(item => {
+                        if (item.trim()) {
+                            const li = document.createElement('li');
+                            li.textContent = item.trim();
+                            preventionList.appendChild(li);
+                        }
+                    });
+                } else {
+                    Object.values(data.prevention).forEach(value => {
+                        const li = document.createElement('li');
+                        li.textContent = value;
+                        preventionList.appendChild(li);
+                    });
+                }
+
+                document.getElementById('result').style.display = 'block';
+
+            } catch (error) {
+                console.error(error);
+                alert("Something went wrong. Try again.");
+            }
+        });
+    </script>
+</body>
+</html>

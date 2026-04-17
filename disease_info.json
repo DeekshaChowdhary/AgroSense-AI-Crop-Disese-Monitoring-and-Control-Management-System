@@ -1,0 +1,230 @@
+{
+  "Apple___Apple_scab": {
+    "name": "Apple Scab",
+    "severity": "Medium",
+    "treatment": "Fungicide sprays; Remove fallen leaves; Pruning infected branches",
+    "prevention": "Resistant apple varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Apple___Black_rot": {
+    "name": "Apple Black Rot",
+    "severity": "High",
+    "treatment": "Prune infected branches; Fungicide applications; Remove mummified fruits",
+    "prevention": "Resistant apple varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Apple___Cedar_apple_rust": {
+    "name": "Cedar Apple Rust",
+    "severity": "Medium",
+    "treatment": "Remove nearby junipers; Apply fungicide; Plant resistant varieties",
+    "prevention": "Resistant apple varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Apple___healthy": {
+    "name": "Healthy Apple",
+    "severity": "None",
+    "treatment": "No treatment needed",
+    "prevention": "Healthy crop practices; Proper spacing and sunlight; Soil and water management; Monitor frequently"
+  },
+  "Blueberry___healthy": {
+    "name": "Healthy Blueberry",
+    "severity": "None",
+    "treatment": "No treatment needed",
+    "prevention": "Healthy crop practices; Proper spacing and sunlight; Soil and water management; Monitor frequently"
+  },
+  "Cherry___Powdery_mildew": {
+    "name": "Cherry Powdery Mildew",
+    "severity": "Medium",
+    "treatment": "Sulfur-based fungicides; Prune infected shoots",
+    "prevention": "Resistant cherry varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Cherry___healthy": {
+    "name": "Healthy Cherry",
+    "severity": "None",
+    "treatment": "No treatment needed",
+    "prevention": "Healthy crop practices; Proper spacing and sunlight; Soil and water management; Monitor frequently"
+  },
+  "Corn___Cercospora_leaf_spot Gray_leaf_spot": {
+    "name": "Corn Gray Leaf Spot",
+    "severity": "High",
+    "treatment": "Fungicide sprays; Crop rotation; Remove infected debris",
+    "prevention": "Resistant corn varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Corn___Common_rust": {
+    "name": "Corn Common Rust",
+    "severity": "Medium",
+    "treatment": "Fungicides; Remove infected debris; Resistant hybrids",
+    "prevention": "Resistant corn varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Corn___Northern_Leaf_Blight": {
+    "name": "Corn Northern Leaf Blight",
+    "severity": "High",
+    "treatment": "Fungicide sprays; Remove infected debris; Crop rotation",
+    "prevention": "Resistant corn varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Corn___healthy": {
+    "name": "Healthy Corn",
+    "severity": "None",
+    "treatment": "No treatment needed",
+    "prevention": "Healthy crop practices; Proper spacing and sunlight; Soil and water management; Monitor frequently"
+  },
+  "Grape___Black_rot": {
+    "name": "Grape Black Rot",
+    "severity": "High",
+    "treatment": "Fungicides; Remove mummified berries; Prune infected shoots",
+    "prevention": "Resistant grape varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Grape___Esca_(Black_Measles)": {
+    "name": "Grape Esca (Black Measles)",
+    "severity": "High",
+    "treatment": "Prune diseased wood; Avoid wounding vines; Limited chemical treatments",
+    "prevention": "Resistant grape varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Grape___Leaf_blight_(Isariopsis_Leaf_Spot)": {
+    "name": "Grape Leaf Blight",
+    "severity": "Medium",
+    "treatment": "Fungicide sprays; Remove infected leaves",
+    "prevention": "Resistant grape varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Grape___healthy": {
+    "name": "Healthy Grape",
+    "severity": "None",
+    "treatment": "No treatment needed",
+    "prevention": "Healthy crop practices; Proper spacing and sunlight; Soil and water management; Monitor frequently"
+  },
+  "Orange___Haunglongbing_(Citrus_greening)": {
+    "name": "Citrus Greening",
+    "severity": "High",
+    "treatment": "Remove infected trees; Control psyllid vectors; No cure",
+    "prevention": "Resistant citrus varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Peach___Bacterial_spot": {
+    "name": "Peach Bacterial Spot",
+    "severity": "Medium",
+    "treatment": "Copper-based sprays; Prune infected areas; Remove infected fruits",
+    "prevention": "Resistant peach varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Peach___healthy": {
+    "name": "Healthy Peach",
+    "severity": "None",
+    "treatment": "No treatment needed",
+    "prevention": "Healthy crop practices; Proper spacing and sunlight; Soil and water management; Monitor frequently"
+  },
+  "Pepper,_bell___Bacterial_spot": {
+    "name": "Bell Pepper Bacterial Spot",
+    "severity": "Medium",
+    "treatment": "Copper sprays; Remove infected plants; Rotate crops",
+    "prevention": "Resistant bell pepper varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Pepper,_bell___healthy": {
+    "name": "Healthy Bell Pepper",
+    "severity": "None",
+    "treatment": "No treatment needed",
+    "prevention": "Healthy crop practices; Proper spacing and sunlight; Soil and water management; Monitor frequently"
+  },
+  "Potato___Early_blight": {
+    "name": "Potato Early Blight",
+    "severity": "Medium",
+    "treatment": "Fungicides; Crop rotation; Remove infected debris",
+    "prevention": "Resistant potato varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Potato___Late_blight": {
+    "name": "Potato Late Blight",
+    "severity": "High",
+    "treatment": "Fungicide sprays; Remove infected plants; Resistant varieties",
+    "prevention": "Resistant potato varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Potato___healthy": {
+    "name": "Healthy Potato",
+    "severity": "None",
+    "treatment": "No treatment needed",
+    "prevention": "Healthy crop practices; Proper spacing and sunlight; Soil and water management; Monitor frequently"
+  },
+  "Raspberry___healthy": {
+    "name": "Healthy Raspberry",
+    "severity": "None",
+    "treatment": "No treatment needed",
+    "prevention": "Healthy crop practices; Proper spacing and sunlight; Soil and water management; Monitor frequently"
+  },
+  "Soybean___healthy": {
+    "name": "Healthy Soybean",
+    "severity": "None",
+    "treatment": "No treatment needed",
+    "prevention": "Healthy crop practices; Proper spacing and sunlight; Soil and water management; Monitor frequently"
+  },
+  "Squash___Powdery_mildew": {
+    "name": "Squash Powdery Mildew",
+    "severity": "Medium",
+    "treatment": "Fungicide sprays; Remove infected leaves; Plant resistant varieties",
+    "prevention": "Resistant squash varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Strawberry___Leaf_scorch": {
+    "name": "Strawberry Leaf Scorch",
+    "severity": "Medium",
+    "treatment": "Remove infected leaves; Copper sprays; Avoid overhead irrigation",
+    "prevention": "Resistant strawberry varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Strawberry___healthy": {
+    "name": "Healthy Strawberry",
+    "severity": "None",
+    "treatment": "No treatment needed",
+    "prevention": "Healthy crop practices; Proper spacing and sunlight; Soil and water management; Monitor frequently"
+  },
+  "Tomato___Bacterial_spot": {
+    "name": "Tomato Bacterial Spot",
+    "severity": "Medium",
+    "treatment": "Copper sprays; Remove infected plants; Rotate crops",
+    "prevention": "Resistant tomato varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Tomato___Early_blight": {
+    "name": "Tomato Early Blight",
+    "severity": "Medium",
+    "treatment": "Fungicides; Crop rotation; Remove infected debris",
+    "prevention": "Resistant tomato varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Tomato___Late_blight": {
+    "name": "Tomato Late Blight",
+    "severity": "High",
+    "treatment": "Fungicides; Remove infected plants; Resistant varieties",
+    "prevention": "Resistant tomato varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Tomato___Leaf_Mold": {
+    "name": "Tomato Leaf Mold",
+    "severity": "Medium",
+    "treatment": "Fungicides; Increase ventilation; Remove infected leaves",
+    "prevention": "Resistant tomato varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Tomato___Septoria_leaf_spot": {
+    "name": "Tomato Septoria Leaf Spot",
+    "severity": "Medium",
+    "treatment": "Fungicides; Remove infected leaves; Rotate crops",
+    "prevention": "Resistant tomato varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Tomato___Spider_mites Two-spotted_spider_mite": {
+    "name": "Tomato Two-Spotted Spider Mite",
+    "severity": "Medium",
+    "treatment": "Miticides; Predatory mites; Avoid excessive nitrogen",
+    "prevention": "Resistant tomato varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Tomato___Target_Spot": {
+    "name": "Tomato Target Spot",
+    "severity": "Medium",
+    "treatment": "Fungicides; Remove infected debris; Rotate crops",
+    "prevention": "Resistant tomato varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Tomato___Tomato_Yellow_Leaf_Curl_Virus": {
+    "name": "Tomato Yellow Leaf Curl Virus",
+    "severity": "High",
+    "treatment": "Remove infected plants; Control whiteflies; Use resistant varieties",
+    "prevention": "Resistant tomato varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Tomato___Tomato_mosaic_virus": {
+    "name": "Tomato Mosaic Virus",
+    "severity": "High",
+    "treatment": "Remove infected plants; Disinfect tools; Use virus-free seeds",
+    "prevention": "Resistant tomato varieties; Proper spacing and sunlight; Monitor frequently"
+  },
+  "Tomato___healthy": {
+    "name": "Healthy Tomato",
+    "severity": "None",
+    "treatment": "No treatment needed",
+    "prevention": "Healthy crop practices; Proper spacing and sunlight; Soil and water management; Monitor frequently"
+  }
+}
